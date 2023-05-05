@@ -22,7 +22,7 @@ export default function Hamburger({isOpen}) {
           .burger {
             width:2rem;
             height: 0.25rem;
-            background-color: white;
+            background-color: #528265;
             transform-origin: 1px;
             transition: all 0.3s linear;
             border-radius: 25px;
@@ -31,7 +31,7 @@ export default function Hamburger({isOpen}) {
            .burger1 {
             width:2rem;
             height: 0.25rem;
-            background-color: white;
+            background-color: #528265;
             transform-origin: 1px;
             transition: all 0.3s linear;
             border-radius: 25px;

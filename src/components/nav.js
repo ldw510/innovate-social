@@ -15,18 +15,18 @@ export default function Navbar() {
   
   
       menu = 
-      <div className="h-screen w-full bg-main-green opacity-30 z-50 fixed top-16">
+      <div className="h-screen w-full bg-white opacity-30 z-50 fixed top-16">
          <div className="">
            <div className="pt-4 mx-auto">
                     <div className="p-2">
                     <ul className="row text-white">
-                    <Link href="/#" class="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-stone-200 ">
+                    <Link href="/#" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-stone-200 ">
                         HOME
                     </Link>
-                    <Link href="/#" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-stone-200">
+                    <Link href="/services" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-stone-200">
                         SERVICES
                     </Link>
-                    <Link href="/#" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-stone-200">
+                    <Link href="/about" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-stone-200">
                         ABOUT US
                     </Link>
 
@@ -34,7 +34,7 @@ export default function Navbar() {
                     INSIGHTS
                     </Link>
 
-                    <Link href="/#" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-stone-200">
+                    <Link href="/contact" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-stone-200">
                     CONTACT US
                     </Link>
                     
@@ -65,10 +65,10 @@ export default function Navbar() {
                   <Link href="/"><img src="svg-green.svg" className="h-20 py-3 " /></Link>
                 </div>
                 <div className="text-lg font-medium  text-main-green lg:flex-grow text-right pt-2">
-                    <Link href="/#" class="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-eggplant ">
+                    <Link href="/#" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-eggplant ">
                         HOME
                     </Link>
-                    <Link href="/portfolio" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-eggplant ">
+                    <Link href="/services" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-eggplant ">
                         SERVICES
                     </Link>
                     <Link href="/about" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-eggplant ">
@@ -79,7 +79,7 @@ export default function Navbar() {
                         INSIGHTS
                     </Link>
 
-                    <Link href="/insights" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-eggplant ">
+                    <Link href="/contact" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-eggplant ">
                     CONTACT US
                     </Link>
                 </div>
@@ -89,7 +89,7 @@ export default function Navbar() {
             </div>
         </nav>
 
-  <nav className={`fixed w-full z-50 bg-main-green transition duration-300 ease-in-out block lg:hidden z-50`}>
+  <nav className={`fixed w-full z-50 bg-white transition duration-300 ease-in-out block lg:hidden z-50`}>
     <div className="w-screen flex items-center justify-between h-16 md:h-20">
           <div className="p-5">
             <Link href="/" className="block">
