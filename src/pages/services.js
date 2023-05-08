@@ -14,7 +14,7 @@ export default function Services() {
         {
           label: "Leadership & Governance",
           value: "leadership & governance",
-          desc: <><p className="py-4 font-semibold text-text-p">Stepping into social entrepreneurship often means addressing issues that are close to your heart or community. It's a brave move, and we're here to back you up every step of the way.</p>
+          desc: <><p className="py-4 font-semibold text-text-p">Stepping into social entrepreneurship often means addressing issues that are close to your heart or community. It is a brave move, and we are here to back you up every step of the way.</p>
           <ul className="list-disc list-inside">
             <li>Looking for a board of advisors or trustees to support decision-making? </li>
             <li>Need mentorship for you or your leadership team? </li>
@@ -26,7 +26,7 @@ export default function Services() {
             label: "Technology & Digital Services",
             value: "technology & digital services",
             desc:<>
-            <p className="py-4 font-semibold">Choosing the right digital tools can be a game-changer for your enterprise, enhancing your reach, impact, and success. But the options can be overwhelming. We're here to help you make sense of it all.</p>
+            <p className="py-4 font-semibold">Choosing the right digital tools can be a game-changer for your enterprise, enhancing your reach, impact, and success. But the options can be overwhelming. We are here to help you make sense of it all.</p>
             <ul className="list-disc list-inside">
                 <li>Spending hours on manual processes? </li>
                 <li>Juggling too many websites or costly apps? </li>
@@ -39,7 +39,7 @@ export default function Services() {
             label: "Business Planning & Operations",
             value: "business planning & operations",
             desc: <>
-            <p className="py-4 font-semibold">Turning an idea into a sustainable business requires careful planning. Whether you're just starting out or ready for a new chapter, we're here to help you understand your ideas, potential customers, and your impact. </p>
+            <p className="py-4 font-semibold">Turning an idea into a sustainable business requires careful planning. Whether you are just starting out or ready for a new chapter, we are here to help you understand your ideas, potential customers, and your impact. </p>
             <ul className="list-disc list-inside">
                 <li>Ready to turn an idea into a business? </li>
                 <li>Need help finding the right people and partners? </li>
@@ -51,7 +51,7 @@ export default function Services() {
             label: "Revenue & Income Generation",
             value: "revenue & income generation",
             desc: <>
-            <p className="py-4 font-semibold">For your enterprise to thrive, it needs a reliable income. Whether that means improving sales, offering new products or services, or generating income from supporters, we're here to help you flourish.</p>
+            <p className="py-4 font-semibold">For your enterprise to thrive, it needs a reliable income. Whether that means improving sales, offering new products or services, or generating income from supporters, we are here to help you flourish.</p>
             <ul className="list-disc list-inside">
                 <li>Products and services not taking off? </li>
                 <li>Revenue sporadic and affecting your cash flow? </li>
@@ -75,7 +75,7 @@ export default function Services() {
             label: "Data Governance and Protection",
             value: "data governance and protection",
             desc: <>
-            <p className="py-4 font-semibold">GDPR and data protection can seem complicated, but they don't have to be. We're here to help you understand and implement simple processes to protect both you and the data you hold.</p>
+            <p className="py-4 font-semibold">GDPR and data protection can seem complicated, but they do not have to be. We are here to help you understand and implement simple processes to protect both you and the data you hold.</p>
             <ul className="list-disc list-inside">
                 <li>Do you collect and hold data on customers or beneficiaries? </li>
                 <li>Work with government or public sector bodies? </li>

@@ -63,7 +63,7 @@ export default function Home() {
         Business Planning & Operations
         </Typography>
         <Typography>
-        We'll work hand-in-hand to transform your future ideas into reality with careful planning and execution.         </Typography>
+        We will work hand-in-hand to transform your future ideas into reality with careful planning and execution.         </Typography>
       </CardBody>
       <CardFooter className="pt-0">      
       </CardFooter>
@@ -75,7 +75,7 @@ export default function Home() {
         Revenue & Income Generation
         </Typography>
         <Typography>
-        Let's work together to enhance your revenue, making the most of every commercial activity you undertake.         </Typography>
+        We can work together to enhance your revenue, making the most of every commercial activity you undertake.         </Typography>
       </CardBody>
       <CardFooter className="pt-0">      
       </CardFooter>
@@ -87,7 +87,7 @@ export default function Home() {
         Tender & Grant Management
         </Typography>
         <Typography>
-        We're in this together, securing philanthropic and public sector funding to fuel your meaningful projects.         </Typography>
+        We are in this together, securing philanthropic and public sector funding to fuel your meaningful projects.         </Typography>
       </CardBody>
       <CardFooter className="pt-0">      
       </CardFooter>
@@ -99,7 +99,7 @@ export default function Home() {
         Data Governance and Protection
         </Typography>
         <Typography>
-        Keep your data safe - we'll help you protect it from breaches and ensure you're always on the right side of compliance.         </Typography>
+        Keep your data safe - we will help you protect it from breaches and ensure you are always on the right side of compliance.         </Typography>
       </CardBody>
       <CardFooter className="pt-0">      
       </CardFooter>

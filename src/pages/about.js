@@ -17,7 +17,7 @@ export default function About() {
                 <img src="sign.svg" className=" image1  justify-self-center md:justify-self-end md:mr-6 md:pr-10" />
             </div>
             <div className="w-5/6 mx-auto">
-             <p className="text-lg  font bold text-main-green md:text-2xl py-10">Today, <span className="text-eggplant">Innovate Social</span> is dedicated <br /> to guiding social enterprises and charities <br />at every stage of their journey.<br /> Whether you're a social entrepreneur with who is grasping with an idea,<br /> or an established organization looking to expand your impact,<br /> we are interested in having interesting conversations. </p>
+             <p className="text-lg  font bold text-main-green md:text-2xl py-10">Today, <span className="text-eggplant">Innovate Social</span> is dedicated <br /> to guiding social enterprises and charities <br />at every stage of their journey.<br /> Whether you are a social entrepreneur with who is grasping with an idea,<br /> or an established organization looking to expand your impact,<br /> we are interested in having interesting conversations. </p>
 
             </div>
             <div className="w-5/6 mx-auto grid grid-rows-1 py-6 ">
