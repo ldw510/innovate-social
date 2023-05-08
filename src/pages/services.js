@@ -6,6 +6,7 @@ import {
     Tab,
     TabPanel,
   } from "@material-tailwind/react";
+  import Cards from "@/components/cards/cards";
    
 
 
@@ -121,6 +122,8 @@ export default function Services() {
 
             </div>
             </section>
+
+            <Cards />
 
         
 

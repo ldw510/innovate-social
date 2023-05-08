@@ -60,7 +60,7 @@ export default function Navbar() {
         <div>
         <nav className={`fixed w-full z-50 md:bg-opacity-80 transition duration-300 ease-in-out text-black ${!top && 'bg-white shadow-lg text-black'} hidden md:block z-50`}>
             <div className='w-5/6 mx-auto'>
-            <div class="hidden lg:visible w-full block flex-grow lg:flex lg:items-center lg:w-auto grid grid-cols-2">
+            <div className="hidden lg:visible w-full block flex-grow lg:flex lg:items-center lg:w-auto grid grid-cols-2">
                 <div className='text-left pt-10'>
                   <Link href="/"><img src="svg-green.svg" className="h-20 pb-10 " /></Link>
                 </div>

@@ -21,7 +21,7 @@ export default function About() {
 
             </div>
             <div className="w-5/6 mx-auto grid grid-rows-1 py-6 ">
-            <img src="icon.svg" className=" image1 justify-self-center md:justify-self-end pr-10 mr-6" />
+            <img src="icon.svg" className=" image1 justify-self-center md:justify-self-end pr-10 mr-6 pb-6" />
 
             </div>
 
