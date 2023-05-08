@@ -22,7 +22,7 @@ export default function Home() {
   
   <div className="bg-green-b py-20 ">
     <div className=" w-5/6 mx-auto  grid grid-cols-1 md:grid-cols-2 pt-10 ">
-    <img src="workspace.svg" className="scale-50" />
+    <img src="workspace.svg" className="scale-50 justify-self-end" />
     <p className=" object-center pt-20 text-lg  font bold text-main-green md:text-2xl">We are a network of values driven, socially conscious,<br /> entrepreneurs and operational leaders <br />who have a track record of delivering meaningful results<br /> that balance people, profit and purpose together. <br></br>
     Our mission is to work with as many <br />socially conscious entrepreneurs, individuals and organisations as possible.<br /> We want to enable amazing ideas to flourish,<br /> and profits to be generated that can be redistributed <br /> for the benefit of a triple bottom line. (link to sub-page/blog?) </p>
     </div>
