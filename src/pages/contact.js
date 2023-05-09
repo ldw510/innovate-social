@@ -40,10 +40,11 @@ export default function Contact() {
       <Layout>
         <div className="pt-12 md:pt-32 bg-white opacity-30">
         </div>
-        <section class="bg-mint-green ">
+        <section class="hero ">
+          <div className="bg-background bg-opacity-70">
   <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
       <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-main-green ">Contact Us</h2>
-      <p class="mb-8 lg:mb-16 font-light text-center text-gray-500  sm:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p class="mb-8 lg:mb-16 font-light text-center text-gray-700  sm:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       
   
   <div  className="w-5/6 mx-auto">
@@ -62,6 +63,7 @@ export default function Contact() {
   </formGroup>
   < input type='submit' className="mx-auto rounded-xl bg-main-green py-2 px-2 text-white font-bold hover:bg-green-b hover:text-main-green hover:border border-main-green " onClick={(e)=>{handleSubmit(e)}}/>
   </form >
+</div>
 </div>
 </div>
 </section>

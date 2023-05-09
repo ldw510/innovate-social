@@ -21,9 +21,9 @@ module.exports = withMT({
         "background": "#EAE7DD",
         "green-b": "#F5F5F5",
         "off-white": "#FFF8F0",
-        "mint-green": "#D6DBD2",
+        "mint-green": "#d0e1d7",
         "coffee": "#9E9A8E",
-        "text-p" : "#230B15"
+        "text-p" : "#43182A"
         
       }
     },
