@@ -43,8 +43,28 @@ Usage: codyhouse.co/license
 .stack-cards {
   --stack-cards-gap: 0.75rem;
   --stack-cards-item-ratio: 2/1;
-  
 }
+
+@media only screen and (min-width: 1024px) {
+  .stack-cards {
+    --stack-cards-gap: 0.75rem;
+    --stack-cards-item-ratio: 2/0.8;
+    
+
+  }
+
+}
+@media only screen and (max-width: 1024px) {
+  .stack-cards {
+    --stack-cards-gap: 0.75rem;
+    --stack-cards-item-ratio: 2/1.25;
+    
+
+  }
+
+}
+
+
 @media (min-width: 64rem) {
   .stack-cards {
     --stack-cards-gap: 1.125rem;
@@ -55,8 +75,7 @@ Usage: codyhouse.co/license
   position: relative;
   position: -webkit-sticky;
   position: sticky;
-  @apply top-5 lg:top-8;
-  height: 0;
+  @apply top-5 lg:top-32;
   padding-bottom: calc(100%/(var(--stack-cards-item-ratio)));
   transform-origin: center top;
   border-radius: 1.25rem;

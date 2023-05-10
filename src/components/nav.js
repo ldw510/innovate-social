@@ -15,27 +15,27 @@ export default function Navbar() {
   
   
       menu = 
-      <div className="h-screen w-full bg-white opacity-30 z-50 fixed top-16">
+      <div className="h-screen w-full bg-white  z-50 fixed top-16">
          <div className="">
            <div className="pt-4 mx-auto">
                     <div className="p-2">
-                    <ul className="row text-white">
-                    <Link href="/#" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-stone-200 ">
-                        HOME
+                    <ul className="row text-main-green">
+                    <Link href="/#" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-gray-700  text-right">
+                        Home
                     </Link>
-                    <Link href="/services" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-stone-200">
-                        SERVICES
+                    <Link href="/services" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-gray-700 text-right">
+                        Services
                     </Link>
-                    <Link href="/about" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-stone-200">
-                        ABOUT US
-                    </Link>
-
-                    <Link href="/#" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-stone-200">
-                    INSIGHTS
+                    <Link href="/about" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-gray-700 text-right">
+                        About Us
                     </Link>
 
-                    <Link href="/contact" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-stone-200">
-                    CONTACT US
+                    <Link href="/#" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-gray-700 text-right">
+                    Insights
+                    </Link>
+
+                    <Link href="/contact" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-sgray-700 text-right">
+                    Contact Us
                     </Link>
                     
                     </ul>
@@ -62,25 +62,25 @@ export default function Navbar() {
             <div className='w-5/6 mx-auto'>
             <div className="hidden lg:visible w-full block flex-grow lg:flex lg:items-center lg:w-auto grid grid-cols-2">
                 <div className='text-left pt-10'>
-                  <Link href="/"><img src="svg-green.svg" className="h-20 pb-10 " /></Link>
+                  <Link href="/#"><img src="svg-green.svg" className="h-20 pb-10 " /></Link>
                 </div>
                 <div className="text-lg font-medium  text-main-green lg:flex-grow text-right pt-2">
                     <Link href="/#" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-eggplant ">
-                        HOME
+                        Home
                     </Link>
                     <Link href="/services" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-eggplant ">
-                        SERVICES
+                        Services
                     </Link>
                     <Link href="/about" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-eggplant ">
-                        ABOUT US
+                        About Us
                     </Link>
 
                     <Link href="#" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-eggplant ">
-                        INSIGHTS
+                        Insights
                     </Link>
 
                     <Link href="/contact" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-eggplant ">
-                    CONTACT US
+                    Contact Us
                     </Link>
                 </div>
                 

@@ -63,7 +63,6 @@ Util.osHasReducedMotion = function() {
     // store card properties
     var cardStyle = getComputedStyle(element.items[0]);
     element.cardTop = Math.floor(parseFloat(cardStyle.getPropertyValue('top')));
-    element.cardHeight = Math.floor(parseFloat(cardStyle.getPropertyValue('height')));
 
     // store window property
     element.windowHeight = window.innerHeight;
