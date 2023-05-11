@@ -13,7 +13,7 @@ export default function Contact() {
         </div>
         <section className="hero ">
           <div className="bg-main-green bg-opacity-70 py-20">
-          <div className="bg-background  w-4/6 mx-auto bg-opacity-70">
+          <div className="bg-background w-5/6 md:w-4/6 mx-auto bg-opacity-70">
   <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
       <h2 className="mb-4 text-4xl  font-extrabold text-center text-main-green ">Contact Us</h2>
       <p className="mb-8 lg:mb-16 font-light text-center text-gray-700  sm:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
