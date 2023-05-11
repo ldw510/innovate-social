@@ -1,4 +1,5 @@
 import Layout from "@/components/layout"
+import Script from 'next/script'
 
   
   
@@ -19,7 +20,7 @@ export default function Services() {
 
         <section className="bg-main-green bg-opacity-70">
           
-          <script type="text/javascript" src="../../public/static/script.js"></script>
+          <Script type="text/javascript" src="../../public/static/script.js"></Script>
             <div className="w-5/6 mx-auto py-20 pl-2 md:pl-10  hidden lg:block">
              <ul className="stack-cards js-stack-cards  ">
                <li className="stack-cards__item bg-white rounded-xl inner-glow shadow-lg js-stack-cards__item">
