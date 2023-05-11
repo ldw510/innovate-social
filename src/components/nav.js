@@ -62,24 +62,24 @@ export default function Navbar() {
             <div className='w-5/6 mx-auto'>
             <div className="hidden lg:visible w-full block flex-grow lg:flex lg:items-center lg:w-auto grid grid-cols-2">
                 <div className='text-left pt-10'>
-                  <Link href="/#"><img src="svg-green.svg" className="h-20 pb-10 " /></Link>
+                  <Link href="/#"><img src="svg-green.svg" alt="company logo" className="h-20 pb-10 " /></Link>
                 </div>
-                <div className="text-lg font-medium  text-main-green lg:flex-grow text-right pt-2">
-                    <Link href="/#" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-eggplant ">
+                <div className="text-xl font-medium  text-main-green  lg:flex-grow text-right pt-2">
+                    <Link href="/#" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 font-bold hover:text-eggplant ">
                         Home
                     </Link>
-                    <Link href="/services" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-eggplant ">
+                    <Link href="/services" className="px-4 link link--underline block mt-4 lg:inline-block font-bold lg:mt-0 hover:text-eggplant ">
                         Services
                     </Link>
-                    <Link href="/about" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-eggplant ">
+                    <Link href="/about" className="px-4 link link--underline block mt-4 lg:inline-block font-bold lg:mt-0 hover:text-eggplant ">
                         About Us
                     </Link>
 
-                    <Link href="#" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-eggplant ">
+                    <Link href="#" className="px-4 link link--underline block mt-4 lg:inline-block font-bold lg:mt-0 hover:text-eggplant ">
                         Insights
                     </Link>
 
-                    <Link href="/contact" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-eggplant ">
+                    <Link href="/contact" className="px-4 link link--underline block mt-4 font-bold lg:inline-block lg:mt-0 hover:text-eggplant ">
                     Contact Us
                     </Link>
                 </div>

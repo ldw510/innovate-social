@@ -13,7 +13,7 @@ export default function Services() {
         </div>  
         <div className=" hero bg-background py-28 ">
           <div className="w-5/6 mx-auto pl-2 md:pl-10 ">
-                <h1 className=" text-main-green font-bold text-2xl md:text-4xl text-left pl-4 md:pl-10">Services</h1>
+                <h1 className=" text-main-green font-extrabold text-2xl md:text-4xl text-left pl-4 md:pl-10">Services</h1>
           </div> 
         </div>     
 
@@ -35,7 +35,7 @@ export default function Services() {
                   </div>
                   
                   <div className="relative ">
-                    <img src="leadership.png"  className=" h-64 pl-12 absolute  inset-x-0 bottom-0"/>
+                    <img src="leadership.png" alt="services icon" className=" h-64 pl-12 absolute  inset-x-0 bottom-0"/>
 
                   </div>
                   </div>
@@ -55,7 +55,7 @@ export default function Services() {
                   </div>
 
                   <div className="relative ">
-                    <img src="services.png"  className=" pl-12 absolute  inset-x-0 bottom-0 h-64 "/>
+                    <img src="services.png" alt="digital services icon" className=" pl-12 absolute  inset-x-0 bottom-0 h-64 "/>
 
                   </div>
 
@@ -74,7 +74,7 @@ export default function Services() {
                    </ul>
                    </div>
                    <div className="relative ">
-                    <img src="planing.png"  className="pl-12 absolute  inset-x-0 bottom-0 h-64 "/>
+                    <img src="planing.png" alt="planning icon" className="pl-12 absolute  inset-x-0 bottom-0 h-64 "/>
 
                   </div>
                  </div>
@@ -92,7 +92,7 @@ export default function Services() {
                    </ul>
                    </div>
                    <div className="relative">
-                    <img src="income.png"  className=" pl-12 absolute  inset-x-0 bottom-0 h-64 "/>
+                    <img src="income.png" alt="income icon" className=" pl-12 absolute  inset-x-0 bottom-0 h-64 "/>
 
                   </div>
                  </div>
@@ -111,7 +111,7 @@ export default function Services() {
                    </div>
 
                    <div className="relative">
-                    <img src="funding.png"  className=" pl-12 absolute inset-x-0 bottom-0 h-64 "/>
+                    <img src="funding.png" alt="funding icon" className=" pl-12 absolute inset-x-0 bottom-0 h-64 "/>
 
                   </div>
                  </div>
@@ -130,7 +130,7 @@ export default function Services() {
                    </div>
 
                    <div className="relative">
-                    <img src="data.png"  className="pl-12 absolute inset-x-0 bottom-0  h-64  "/>
+                    <img src="data.png" alt="data icon" className="pl-12 absolute inset-x-0 bottom-0  h-64  "/>
 
                   </div>
                  </div>
