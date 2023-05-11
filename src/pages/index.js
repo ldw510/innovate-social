@@ -33,13 +33,13 @@ export default function Home() {
       <p className="text-lg  font bold text-off-white md:text-2xl pt-10 md:pt-16 md:pl-10 pb-4"><span className="text-eggplant text-lg  font-bold md:text-2xl">Our mission </span>is to work with as many socially conscious entrepreneurs,<br /> individuals and organisations as possible.<br /> We want to enable amazing ideas to flourish,<br /> and profits to be generated that can be redistributed <br /> for the  benefit of a triple bottom line. (link to sub-page/blog?)</p>
     </div>
     <div className="w-5/6 mx-auto grid grid-rows-1 py-6 ">
-      <img src="clipboard.svg" alt="clipboard icon" className=" image1  justify-self-center md:justify-self-end md:mr-6 md:pr-10 md:pb-6" />
+      <img src="clipboard.svg" alt="clipboard icon" className=" image1  justify-self-center md:justify-self-end pb-10 md:mr-6 md:pr-10 md:pb-6" />
     </div>
   </div>
   <div className="hero bg-background">
-  <div className="w-5/6 mx-auto py-10 pl-2 md:pl-10">
-    <h2 className=" text-main-green font-bold text-2xl md:text-4xl text-left py-10  md:pl-10 pb-10">What do we do? </h2>
-    <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-10">
+  <div className="w-5/6 mx-auto py-20 pl-2 md:pl-10">
+    <h2 className=" text-main-green font-extrabold text-3xl md:text-4xl text-left py-10  md:pl-10 pb-10">What do we do? </h2>
+    <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
     <Card className=" card mt-6 mx-2">
       <CardBody>
         <Typography variant="h4"  className="mb-2 ">

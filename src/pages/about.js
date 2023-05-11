@@ -7,7 +7,7 @@ export default function About() {
         </div>
         <div className=" hero bg-background py-28">
           <div className="w-5/6 mx-auto pl-2 md:pl-10 ">
-                <h1 className=" text-main-green font-extrabold text-2xl md:text-4xl text-left pl-4 md:pl-10">About Us</h1>
+                <h1 className=" text-main-green font-extrabold text-4xl text-left pl-4 md:pl-10">About Us</h1>
         </div>        
 
         </div>
