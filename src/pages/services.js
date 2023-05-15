@@ -12,9 +12,9 @@ export default function Services() {
       <Layout>
         <div className="pt-12 md:pt-32 bg-white opacity-30">
         </div>  
-        <div className=" hero bg-background py-28 ">
+        <div className=" py-28 ">
           <div className="w-5/6 mx-auto pl-2 md:pl-10 ">
-                <h1 className=" text-main-green font-extrabold  text-4xl text-left pl-4 md:pl-10">Services</h1>
+                <h1 className=" text-dark font-extrabold  text-4xl text-left pl-4 md:pl-10">Services</h1>
           </div> 
         </div>     
 
@@ -27,7 +27,7 @@ export default function Services() {
                  <div className="p-2  md:pl-10  md:px-2  bg-off-white grid grid-cols-2">
                   <div className="py-6">
                   <h3 className="text-left font-bold text-xl md:text-2xl text-main-green  py-4">Leadership & Governance</h3>
-                  <p className="py-4 text-left  font-semibold text-gray-700 text-md md:text-lg">Stepping into social entrepreneurship often means addressing issues that are close to your heart or community.<br /> It is a brave move, and we are here to back you up every step of the way.</p>
+                  <p className="py-4 text-left  font-semibold text-gray-700 text-md md:text-lg">Stepping into social entrepreneurship often means addressing issues that are close to your heart or community.<br /> It is a brave move, and we are here to back you  every step of the way.</p>
                   <ul className="list-disc list-inside text-gray-700 py-4 ">
                     <li>Looking for a board of advisors or trustees to support decision-making? </li>
                     <li>Need mentorship for you or your leadership team? </li>
@@ -51,7 +51,7 @@ export default function Services() {
                   <ul className="list-disc list-inside text-gray-700 py-4 ">
                    <li>Spending hours on manual processes? </li>
                    <li>Juggling too many websites or costly apps? </li>
-                   <li>Worried about implementing a new system? Focus on your core business, and leave the tech to us. </li>
+                   <li>Worried about implementing a new system? Focus on your core business and leave the tech to us. </li>
                   </ul>
                   </div>
 

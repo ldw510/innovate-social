@@ -6,6 +6,7 @@ import {
   Typography,
   Button,
 } from "@material-tailwind/react";
+import Link from "next/link";
 
 
 
@@ -15,32 +16,33 @@ export default function Home() {
       <div className="pt-12 md:pt-32 bg-white opacity-30">
 </div>
 <section className="  ">
-  <div className=" hero py-10 bg-background">
+  <div className="  py-10 ">
   <div className="  w-5/6 mx-auto py-20  pl-2 md:pl-10 ">
-    <h2 className="font-extrabold text-main-green  pt-15  md:pl-10 text-2xl  md:text-4xl">Lorem ipsum dolor sit<br/> amet, consectetur adipiscing<br /> elit, sed do eiusmod tempor <br />incididunt ut labore et<br /> <span className="text-eggplant"> dolore magna aliqua.</span> </h2>
+    <h2 className="font-extrabold text-main-green  pt-15  md:pl-10 text-2xl  md:text-4xl">Innovate Social is for people,<br /> businesses and charities who seek to develop<br /> socially positive businesses that deliver<br /> exceptional products and services <br /> that ultimately <span className="text-eggplant"> benefit society.</span></h2>
     
   </div>
   </div>
   
-   <div className="bg-main-green bg-opacity-70">
+   <div className="bg-dark ">
     <div className="w-5/6 mx-auto py-10 pl-2 md:pl-10"> 
-      <p className="text-lg  font bold text-off-white md:text-2xl pt-10 md:pt-16 md:pl-10 pb-4">We are a network of values driven,<br /> socially conscious, entrepreneurs and operational leaders <br /> who have a track record of  delivering meaningful results<br /> that balance people, profit and<span className="text-eggplant text-lg  font-bold md:text-2xl"> purpose together.</span></p>
+      <p className="text-lg  font bold text-off-white md:text-2xl pt-10 md:pt-16 md:pl-10 pb-4"><span className=" text-lg font-bold md:text-2xl">Our mission </span>is to work with as many socially conscious entrepreneurs,<br /> individuals and organisations as possible.<br /> We want to enable amazing ideas to flourish,<br /> and profits to be generated that can be redistributed <br /> for the  benefit of a triple bottom line.</p>
     </div>
     <div className="w-5/6 mx-auto grid grid-rows-1  ">
       <img src="scale.svg" alt="scale icon" className=" image1  justify-self-center md:justify-self-end md:mr-6 md:pr-10" />
     </div>
     <div className="w-5/6 mx-auto py-10 pl-2 md:pl-10">
-      <p className="text-lg  font bold text-off-white md:text-2xl pt-10 md:pt-16 md:pl-10 pb-4"><span className="text-eggplant text-lg  font-bold md:text-2xl">Our mission </span>is to work with as many socially conscious entrepreneurs,<br /> individuals and organisations as possible.<br /> We want to enable amazing ideas to flourish,<br /> and profits to be generated that can be redistributed <br /> for the  benefit of a triple bottom line. (link to sub-page/blog?)</p>
+      <p className="text-lg  font bold text-off-white md:text-2xl pt-10 md:pt-16 md:pl-10 pb-4">We work with large established organisations,<br /> as well as individuals who have just started <br />to formulate an idea or <span className=" text-lg font-bold md:text-2xl">solution of their own.</span> </p>
     </div>
     <div className="w-5/6 mx-auto grid grid-rows-1 py-6 ">
       <img src="clipboard.svg" alt="clipboard icon" className=" image1  justify-self-center md:justify-self-end pb-10 md:mr-6 md:pr-10 md:pb-6" />
     </div>
   </div>
-  <div className="hero bg-background">
+  <div className="">
   <div className="w-5/6 mx-auto py-20 pl-2 md:pl-10">
     <h2 className=" text-main-green font-extrabold text-3xl md:text-4xl text-left py-10  md:pl-10 pb-10">What do we do? </h2>
     <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
     <Card className=" card mt-6 mx-2">
+      <Link href="/services">
       <CardBody>
         <Typography variant="h4"  className="mb-2 ">
         Leadership & Governance
@@ -49,11 +51,12 @@ export default function Home() {
         Helping you to lead for your cause, and demonstrate the value you bring to beneficiaries, supporters, and shareholders.
         </Typography>
       </CardBody>
-      <CardFooter className="pt-0">      
-      </CardFooter>
+      
+      </Link>
     </Card>
 
     <Card className=" card mt-6 mx-2">
+    <Link href="/services">
       <CardBody>
         <Typography variant="h4"  className="mb-2">
         Technology & Digital Services
@@ -62,11 +65,12 @@ export default function Home() {
         We can streamline your operations by integrating time-saving, cost-effective tools and services that are simple to use. 
         </Typography>
       </CardBody>
-      <CardFooter className="pt-0">      
-      </CardFooter>
+      
+      </Link>
     </Card>
 
     <Card className=" card mt-6 mx-2">
+    <Link href="/services">
       <CardBody>
         <Typography variant="h4"  className="mb-2">
         Business Planning & Operations
@@ -74,11 +78,12 @@ export default function Home() {
         <Typography>
         We will work hand-in-hand to transform your future ideas into reality with careful planning and execution.         </Typography>
       </CardBody>
-      <CardFooter className="pt-0">      
-      </CardFooter>
+      
+      </Link>
     </Card>
 
     <Card className=" card mt-6 mx-2">
+    <Link href="/services">
       <CardBody>
         <Typography variant="h4"  className="mb-2">
         Revenue & Income Generation
@@ -86,11 +91,12 @@ export default function Home() {
         <Typography>
         We can work together to enhance your revenue, making the most of every commercial activity you undertake.         </Typography>
       </CardBody>
-      <CardFooter className="pt-0">      
-      </CardFooter>
+      
+      </Link>
     </Card>
 
     <Card className=" card mt-6 mx-2">
+    <Link href="/services">
       <CardBody>
         <Typography variant="h4"  className="mb-2">
         Tender & Grant Management
@@ -98,11 +104,12 @@ export default function Home() {
         <Typography>
         We are in this together, securing philanthropic and public sector funding to fuel your meaningful projects.         </Typography>
       </CardBody>
-      <CardFooter className="pt-0">      
-      </CardFooter>
+      
+      </Link>
     </Card>
 
     <Card className=" card mt-6 mx-2">
+    <Link href="/services">
       <CardBody>
         <Typography variant="h4"  className="mb-2">
         Data Governance and Protection
@@ -110,8 +117,8 @@ export default function Home() {
         <Typography>
         Keep your data safe - we will help you protect it from breaches and ensure you are always on the right side of compliance.         </Typography>
       </CardBody>
-      <CardFooter className="pt-0">      
-      </CardFooter>
+      
+      </Link>
     </Card>
 
 

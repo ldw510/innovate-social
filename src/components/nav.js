@@ -19,22 +19,22 @@ export default function Navbar() {
          <div className="">
            <div className="pt-4 mx-auto">
                     <div className="p-2">
-                    <ul className="row text-main-green">
-                    <Link href="/#" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-gray-700  text-right">
+                    <ul className="row text-dark">
+                    <Link href="/#" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-main-green  text-right">
                         Home
                     </Link>
-                    <Link href="/services" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-gray-700 text-right">
+                    <Link href="/services" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-main-green text-right">
                         Services
                     </Link>
-                    <Link href="/about" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-gray-700 text-right">
+                    <Link href="/about" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-main-green text-right">
                         About Us
                     </Link>
 
-                    <Link href="/#" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-gray-700 text-right">
+                    <Link href="/#" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-main-green text-right">
                     Insights
                     </Link>
 
-                    <Link href="/contact" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-sgray-700 text-right">
+                    <Link href="/contact" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 hover:text-main-green text-right">
                     Contact Us
                     </Link>
                     
@@ -62,24 +62,24 @@ export default function Navbar() {
             <div className='w-5/6 mx-auto'>
             <div className="hidden lg:visible w-full block flex-grow lg:flex lg:items-center lg:w-auto grid grid-cols-2">
                 <div className='text-left pt-10'>
-                  <Link href="/#"><img src="svg-green.svg" alt="company logo" className="h-20 pb-10 " /></Link>
+                  <Link href="/#"><img src="gray-logo.svg" alt="company logo" className="h-20 pb-10 " /></Link>
                 </div>
-                <div className="text-xl font-medium  text-main-green  lg:flex-grow text-right pt-2">
-                    <Link href="/#" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 font-bold hover:text-eggplant ">
+                <div className="text-xl font-medium  text-dark  lg:flex-grow text-right pt-2">
+                    <Link href="/#" className="px-4 link link--underline block mt-4 lg:inline-block lg:mt-0 font-bold hover:text-main-green ">
                         Home
                     </Link>
-                    <Link href="/services" className="px-4 link link--underline block mt-4 lg:inline-block font-bold lg:mt-0 hover:text-eggplant ">
+                    <Link href="/services" className="px-4 link link--underline block mt-4 lg:inline-block font-bold lg:mt-0 hover:text-main-green ">
                         Services
                     </Link>
-                    <Link href="/about" className="px-4 link link--underline block mt-4 lg:inline-block font-bold lg:mt-0 hover:text-eggplant ">
+                    <Link href="/about" className="px-4 link link--underline block mt-4 lg:inline-block font-bold lg:mt-0 hover:text-main-green ">
                         About Us
                     </Link>
 
-                    <Link href="#" className="px-4 link link--underline block mt-4 lg:inline-block font-bold lg:mt-0 hover:text-eggplant ">
+                    <Link href="#" className="px-4 link link--underline block mt-4 lg:inline-block font-bold lg:mt-0 hover:text-main-green ">
                         Insights
                     </Link>
 
-                    <Link href="/contact" className="px-4 link link--underline block mt-4 font-bold lg:inline-block lg:mt-0 hover:text-eggplant ">
+                    <Link href="/contact" className="px-4 link link--underline block mt-4 font-bold lg:inline-block lg:mt-0 hover:text-main-green ">
                     Contact Us
                     </Link>
                 </div>
@@ -93,7 +93,7 @@ export default function Navbar() {
     <div className="w-screen flex items-center justify-between h-16 md:h-20">
           <div className="p-5">
             <Link href="/" className="block">
-             <img className="md:mx-auto h-10" src="logo.svg" />
+             <img className="md:mx-auto h-10" src="gray-logo.svg" />
             </Link>
           </div>
       <span className="p-5 right-0 fixed">
