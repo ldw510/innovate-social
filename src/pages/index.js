@@ -1,4 +1,6 @@
 import Layout from "@/components/layout"
+import ExpandableCards from "@/components/expandable-cards";
+import Link from "next/link";
 import {
   Card,
   CardBody,
@@ -6,7 +8,14 @@ import {
   Typography,
   Button,
 } from "@material-tailwind/react";
-import Link from "next/link";
+
+
+const cards = [
+  { id: 1, cardName: 'Strategy', text: 'Deliver the big picture, and plan to lead with confidence, chart a mission driven cause, and transform innovative ideas into reality. ', image: "office.png", active: true },
+  { id: 2, cardName: 'Efficiency', text:  'Deliver things better, reduce costs and enhance service through Digital and Technology solutions, enhanced processes, and great people management. ', image: "bar.jpeg", tag: 'Public Space & Placemaking', active: false},
+  { id: 3, cardName: 'Income & Revenue', text:  'Generate more sales, win more tenders & draw down from applicable grants to boost cash flow and improve financial health.  ', image: "bar2.jpeg", active: false},
+ 
+];
 
 
 
@@ -23,113 +32,48 @@ export default function Home() {
   </div>
   </div>
   
-   <div className="bg-dark ">
-    <div className="w-5/6 mx-auto py-10 pl-2 md:pl-10"> 
-      <p className="text-lg  font bold text-off-white md:text-2xl pt-10 md:pt-16 md:pl-10 pb-4"><span className=" text-lg font-bold md:text-2xl">Our mission </span>is to work with as many socially conscious entrepreneurs,<br /> individuals and organisations as possible.<br /> We want to enable amazing ideas to flourish,<br /> and profits to be generated that can be redistributed <br /> for the  benefit of a triple bottom line.</p>
-    </div>
-    <div className="w-5/6 mx-auto grid grid-rows-1  ">
-      <img src="scale.svg" alt="scale icon" className=" image1  justify-self-center md:justify-self-end md:mr-6 md:pr-10" />
-    </div>
-    <div className="w-5/6 mx-auto py-10 pl-2 md:pl-10">
-      <p className="text-lg  font bold text-off-white md:text-2xl pt-10 md:pt-16 md:pl-10 pb-4">We work with large established organisations,<br /> as well as individuals who have just started <br />to formulate an idea or <span className=" text-lg font-bold md:text-2xl">solution of their own.</span> </p>
-    </div>
-    <div className="w-5/6 mx-auto grid grid-rows-1 py-6 ">
-      <img src="clipboard.svg" alt="clipboard icon" className=" image1  justify-self-center md:justify-self-end pb-10 md:mr-6 md:pr-10 md:pb-6" />
-    </div>
-  </div>
-  <div className="">
-  <div className="w-5/6 mx-auto py-20 pl-2 md:pl-10">
-    <h2 className=" text-main-green font-extrabold text-3xl md:text-4xl text-left py-10  md:pl-10 pb-10">What do we do? </h2>
-    <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
-    <Card className=" card mt-6 mx-2">
-      <Link href="/services">
-      <CardBody>
-        <Typography variant="h4"  className="mb-2 ">
-        Leadership & Governance
-        </Typography>
-        <Typography>
-        Helping you to lead for your cause, and demonstrate the value you bring to beneficiaries, supporters, and shareholders.
-        </Typography>
-      </CardBody>
-      
-      </Link>
-    </Card>
+   <div className="bg-dark py-16">
 
-    <Card className=" card mt-6 mx-2">
-    <Link href="/services">
-      <CardBody>
-        <Typography variant="h4"  className="mb-2">
-        Technology & Digital Services
-        </Typography>
-        <Typography>
-        We can streamline your operations by integrating time-saving, cost-effective tools and services that are simple to use. 
-        </Typography>
-      </CardBody>
-      
-      </Link>
-    </Card>
-
-    <Card className=" card mt-6 mx-2">
-    <Link href="/services">
-      <CardBody>
-        <Typography variant="h4"  className="mb-2">
-        Business Planning & Operations
-        </Typography>
-        <Typography>
-        We will work hand-in-hand to transform your future ideas into reality with careful planning and execution.         </Typography>
-      </CardBody>
-      
-      </Link>
-    </Card>
-
-    <Card className=" card mt-6 mx-2">
-    <Link href="/services">
-      <CardBody>
-        <Typography variant="h4"  className="mb-2">
-        Revenue & Income Generation
-        </Typography>
-        <Typography>
-        We can work together to enhance your revenue, making the most of every commercial activity you undertake.         </Typography>
-      </CardBody>
-      
-      </Link>
-    </Card>
-
-    <Card className=" card mt-6 mx-2">
-    <Link href="/services">
-      <CardBody>
-        <Typography variant="h4"  className="mb-2">
-        Tender & Grant Management
-        </Typography>
-        <Typography>
-        We are in this together, securing philanthropic and public sector funding to fuel your meaningful projects.         </Typography>
-      </CardBody>
-      
-      </Link>
-    </Card>
-
-    <Card className=" card mt-6 mx-2">
-    <Link href="/services">
-      <CardBody>
-        <Typography variant="h4"  className="mb-2">
-        Data Governance and Protection
-        </Typography>
-        <Typography>
-        Keep your data safe - we will help you protect it from breaches and ensure you are always on the right side of compliance.         </Typography>
-      </CardBody>
-      
-      </Link>
-    </Card>
+   <div className="w-5/6 mx-auto py-10 pl-2 md:pl-10 grid md:grid-cols-2"> 
+            <div>
+            <p className="text-lg  font bold text-off-white md:text-2xl  pb-4">Our mission is to work with as many socially conscious entrepreneurs, individuals and organisations as possible. We want to enable amazing ideas to flourish, and profits to be generated that can be redistributed  for the  benefit of a triple bottom line.</p>
+            
 
 
+            </div>
+           
+              <img src="bar2.jpeg" alt="bar image" className=" image1  justify-self-center   w-5/6" />
+            </div>
 
+    <div className="w-5/6 mx-auto py-10 pl-2 md:pl-10 grid md:grid-cols-2"> 
+          <div className="block md:hidden">
+            <p className="text-lg  font bold text-off-white md:text-2xl  pb-4">We work with large established organisations, as well as individuals who have just started to formulate an idea or solution of their own. </p>
+            </div>
+            <div> 
+              <img src="bar.jpeg" alt="bar image" className=" image1  justify-self-center   w-5/6" />
+              </div>
+              <div className="hidden md:block" >
+              <p className="text-lg  font bold text-off-white md:text-2xl  pb-4">We work with large established organisations, as well as individuals who have just started to formulate an idea or solution of their own. </p>
+                
+              </div>
+            </div>        
     
+  </div>
 
-    
-    </div>
+  <div className="bg-main-green py-16">
+    <ExpandableCards data={cards}/>
 
   </div>
-  </div>
+
+            <div className="bg-main-green p-12">
+              <Link href="/services" className=" text-white mt-12 w-4/6 lg:w-6/6">A full list of
+              the services we
+              provide
+              <span></span>
+              </Link>
+            </div>         
+       
+ 
 
 </section>
     </Layout>

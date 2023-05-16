@@ -98,3 +98,80 @@ Usage: codyhouse.co/license
   
      object-fit: cover;
 }
+.cards {
+  display: flex-row;
+}
+
+.card {
+  display: flex-row;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  color: white;
+  cursor: pointer;
+  width: 95%;
+  margin: 0.5rem;
+  transition: width 0.3s;
+}
+
+.card h3 {
+  font-size: 3rem;
+  align-self: flex-end;
+  position: relative;
+  opacity: 1;
+  transition: opacity 0.5s;
+  font-family: "bison";
+  padding: 1.5rem;
+  line-height: 1;
+}
+
+.card.active {
+  width: 95%;
+}
+
+.card.active h3 {
+  opacity: 1;
+  font-size: 3rem;
+}
+
+@media screen and (min-width: 1000px) {
+.cards {
+display: flex;
+}
+
+.card {
+display: flex;
+width: 5%;
+margin: 1rem;
+
+}
+
+.card h3 {
+font-size: 0rem;
+align-self: flex-end;
+position: relative;
+opacity: 0;
+transition: opacity 0.5s;
+font-family: "bison";
+padding: 1.5rem;
+}
+
+.card.active h3 {
+opacity: 1;
+font-size: 3rem;
+}
+
+.card p {
+  font-size: 1rem;
+  align-self: flex-end;
+  position: relative;
+  opacity: 0;
+  transition: opacity 0.5s;
+ 
+  }
+  
+  .card.active p {
+  opacity: 1;
+  }
+}
