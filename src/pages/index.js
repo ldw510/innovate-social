@@ -11,9 +11,9 @@ import {
 
 
 const cards = [
-  { id: 1, cardName: 'Strategy', text: 'Deliver the big picture, and plan to lead with confidence, chart a mission driven cause, and transform innovative ideas into reality. ', image: "office.png", active: true },
-  { id: 2, cardName: 'Efficiency', text:  'Deliver things better, reduce costs and enhance service through Digital and Technology solutions, enhanced processes, and great people management. ', image: "bar.jpeg", tag: 'Public Space & Placemaking', active: false},
-  { id: 3, cardName: 'Income & Revenue', text:  'Generate more sales, win more tenders & draw down from applicable grants to boost cash flow and improve financial health.  ', image: "bar2.jpeg", active: false},
+  { id: 1, cardName: 'Strategy', text: 'Deliver the big picture, and plan to lead with confidence, chart a mission driven cause, and transform innovative ideas into reality. ', image: "1-tile.jpg", active: true },
+  { id: 2, cardName: 'Efficiency', text:  'Deliver things better, reduce costs and enhance service through Digital and Technology solutions, enhanced processes, and great people management. ', image: "2-tile.jpg", tag: 'Public Space & Placemaking', active: false},
+  { id: 3, cardName: 'Income & Revenue', text:  'Generate more sales, win more tenders & draw down from applicable grants to boost cash flow and improve financial health.  ', image: "3-tile.jpg", active: false},
  
 ];
 
@@ -26,8 +26,8 @@ export default function Home() {
 </div>
 <section className="  ">
   <div className="  py-10 ">
-  <div className="  w-5/6 mx-auto py-20  pl-2 md:pl-10 ">
-    <h2 className="font-extrabold text-main-green  pt-15  md:pl-10 text-2xl  md:text-4xl">Innovate Social is for people,<br /> businesses and charities who seek to develop<br /> socially positive businesses that deliver<br /> exceptional products and services <br /> that ultimately <span className="text-eggplant"> benefit society.</span></h2>
+  <div className="  w-5/6 mx-auto py-20  ">
+    <h2 className="font-extrabold text-main-green  pt-15 pl-4 md:pl-10 text-2xl  md:text-4xl">Innovate Social is for people,<br /> businesses and charities who seek to develop<br /> socially positive businesses that deliver<br /> exceptional products and services <br /> that ultimately <span className="text-eggplant"> benefit society.</span></h2>
     
   </div>
   </div>
